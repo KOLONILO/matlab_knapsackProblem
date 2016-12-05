@@ -1,2 +1,2 @@
 # matlab_knapsackProblem
-Matlab Knapsack Problem
+The knapsack problem solved with evolutionary computing: tournament parent selection.
