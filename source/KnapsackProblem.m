@@ -36,7 +36,3 @@ classdef KnapsackProblem
     end
 end
 
-function [items, individual_size] = read_problem_data(file_path)
-    
-end
-
