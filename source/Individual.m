@@ -6,7 +6,7 @@ classdef Individual
     end
     methods
         function self = Individual(genes_number)
-            self.genes = zeros(genes_number);
+            self.genes = zeros(1, genes_number);
         end
     end
 end
