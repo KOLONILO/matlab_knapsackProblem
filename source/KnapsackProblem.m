@@ -30,7 +30,6 @@ classdef KnapsackProblem
         end
         
         function decode_individual(self, individual)
-            pass
         end   
         
     end
