@@ -1,4 +1,4 @@
-classdef Individual
+classdef Individual < handle
     properties
         fitness = -1
         age = 0

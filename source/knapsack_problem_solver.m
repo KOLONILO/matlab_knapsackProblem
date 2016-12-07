@@ -3,7 +3,8 @@ function knapsack_problem_solver(file_path)
     [items, knapsacks_capacity] = read_data_file(file_path);
     knapsack_problem = KnapsackProblem(knapsacks_capacity, items);
     genetic_algorithm = GeneticAlgorithm(knapsack_problem);
-    genetic_algorithm.run();
+    genetic_algorithm.run()
+    genetic_algorithm.best_individual
 end
 
 function [items, individual_size] = read_data_file(file_path)

@@ -1,4 +1,4 @@
-classdef Item
+classdef Item < handle
     properties
         value
         cost

@@ -1,4 +1,4 @@
-classdef KnapsackProblem
+classdef KnapsackProblem < handle
     properties
         individuals_size
         traits
